@@ -5,7 +5,7 @@ export const Container = styled.div`
   justify-content: center;
   align-items: center;
 
-  margin-top: -80px;
+  margin-top: -125px;
 
   div.slider{
 

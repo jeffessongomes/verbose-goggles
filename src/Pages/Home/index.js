@@ -2,6 +2,7 @@ import { Container } from './styles';
 
 import Carousel from '../../components/Carousel';
 import Card from '../../components/Card';
+import Playlist from '../../components/Playlist';
 
 const Home = () => {
   return(
@@ -12,6 +13,7 @@ const Home = () => {
         <Card />
         <Card />
       </div>
+      <Playlist />
     </Container>
   );
 }

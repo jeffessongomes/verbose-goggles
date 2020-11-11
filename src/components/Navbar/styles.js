@@ -3,7 +3,7 @@ import styled from 'styled-components';
 export const Container = styled.nav`
   div.container{
     border-bottom: 1px solid rgba(255, 255, 255, 0.3);
-    padding: 0;
+    padding: 10px 0 20px 0;
 
     background: transparent !important;
     

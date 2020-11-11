@@ -7,6 +7,7 @@ export const Container = styled.div`
     justify-content: center;
     flex-wrap: wrap;
     margin-top: -70px;
+    margin-bottom: 106.75px;
 
     > div{
       margin-left: 30px;
