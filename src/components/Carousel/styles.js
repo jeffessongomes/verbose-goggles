@@ -43,10 +43,6 @@ export const Container = styled.div`
         margin-left: -20%;
       }
 
-      input#radio3:checked ~ .first{
-        margin-left: -40%;
-      }
-
       input{
         display: none;
       }
@@ -109,10 +105,6 @@ export const Container = styled.div`
   }
 
   input#radio2:checked ~ .navigation-auto .auto-btn2{
-    background: #FFF;
-  }
-
-  input#radio3:checked ~ .navigation-auto .auto-btn3{
     background: #FFF;
   }
 `;
