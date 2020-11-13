@@ -29,7 +29,7 @@ export const Container = styled.div`
         letter-spacing: 0px;
         color: #FFFFFF;
         padding: 20px 30px;
-        font: normal normal 800 18px/30px Muli;
+        font: normal normal 800 18px/30px Mulish;
 
         transition: .3s;
       }
@@ -62,7 +62,7 @@ export const Container = styled.div`
       color: #2A2E31;
       text-align: left;
       font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-18)/var(--unnamed-line-spacing-30) var(--unnamed-font-family-muli);
-      font: normal normal normal 18px/30px Muli;
+      font: normal normal normal 18px/30px Mulish;
       padding: 0;
       margin: 0;
     }
@@ -72,7 +72,7 @@ export const Container = styled.div`
       width: 100%;
       text-align: left;
       font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) var(--unnamed-font-size-14)/var(--unnamed-line-spacing-20) var(--unnamed-font-family-muli);
-      font: normal normal bold 14px/20px Muli;
+      font: normal normal bold 14px/20px Mulish;
       color: #BCBCBC;
       letter-spacing: 1.4px;
       text-transform: uppercase;

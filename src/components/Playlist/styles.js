@@ -14,7 +14,7 @@ export const Container = styled.div`
 
     font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-800) var(--unnamed-font-size-48)/var(--unnamed-line-spacing-58) var(--unnamed-font-family-muli);
     letter-spacing: var(--unnamed-character-spacing--0-48);
-    font: normal normal 800 48px/58px Muli;
+    font: normal normal 800 48px/58px Mulish;
     letter-spacing: -0.48px;
     font-weight: bolder;
   }
@@ -22,6 +22,7 @@ export const Container = styled.div`
   div{
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 
     div{
       display: flex;
@@ -112,9 +113,10 @@ export const Container = styled.div`
 
       strong{
         font-size: 18px;
-        font-family: 'Muli', serif;
+        font-family: 'Mulish', serif;
         font-weight: normal;
 
+        font-weight: 800;
         letter-spacing: 0px;
         color: #FFF;
         padding: 5px 0 0 20px;
@@ -224,4 +226,55 @@ export const Container = styled.div`
     }
   }
 
+`;
+
+
+export const Mobile = styled.div`
+  @media only screen and (max-width: 990px) {
+    div{
+      div{
+        ul{
+          width: 100%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          align-content: center;
+
+          flex-wrap: wrap;
+          -webkit-mask-image: none;
+
+          direction: initial;
+          overflow-y: hidden;
+          
+          margin: 0 0 0 0;
+          padding: 0 20px;
+
+
+          li{
+            margin: 5px !important;
+
+            & + li{
+              margin: 0;
+            }
+
+            div.active{
+              padding: 0;
+            }
+          }
+
+          &::-webkit-scrollbar {
+            width: 100px;
+            height: 10px;
+            background: transparent;
+          }
+
+          &::-webkit-scrollbar-thumb {
+            background: rgba(0, 0, 0, 1);
+            border-radius: 5px;
+          }
+
+        }
+      }
+    }
+  }  
 `;

@@ -12,7 +12,13 @@ export const Container = styled.div`
     > div{
       margin-left: 30px;
       margin-bottom: 20px;
-    
     }
   }
+
+  div.functions{
+    display: flex;
+    justify-content: center;
+    margin-top: 80.32px;
+  }
+
 `;
