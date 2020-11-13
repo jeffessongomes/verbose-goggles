@@ -4,7 +4,7 @@ import {IoIosArrowForward, IoIosArrowBack} from 'react-icons/io';
 
 import {Container} from './styles';
 
-import banner1 from '../../assets/img/banner-1.jpg';
+import banner1 from '../../assets/img/banner-4.png';
 import banner2 from '../../assets/img/banner-2.jpg';
 
 const Carousel = () => {
