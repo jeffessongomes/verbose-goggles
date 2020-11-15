@@ -33,7 +33,7 @@ O projeto é um desafio, onde deveria clonar um layout que foi feito no Adobe XD
 </p>
 
 <p align="center">
-	Você pode ver a demonstração clicando [aqui](https://rits-challenge.herokuapp.com)
+	Você pode ver a demonstração nesse site (https://rits-challenge.herokuapp.com)
 </p>
 
 ---
