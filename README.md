@@ -1,5 +1,5 @@
 <h1 align="center">Desafio da RITS</h1>
-<img alt="RITS" src="./.github/banner.png" />
+<img alt="RITS" src=".github/banner.png" />
 
 <p align="center">
   <img alt="Tamanho do Repositório" src="https://img.shields.io/github/repo-size/jeffessongomes/verbose-goggles?style=for-the-badge">
