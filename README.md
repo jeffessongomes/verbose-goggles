@@ -32,12 +32,17 @@ O projeto é um desafio, onde deveria clonar um layout que foi feito no Adobe XD
   <img alt="RITS" src="./.github/assets/banner.png">
 </p>
 
+<p align="center">
+	Você pode ver a demonstração clicando [aqui](https://rits-challenge.herokuapp.com)
+</p>
+
 ---
 ### :hammer: **Tecnologias**
 
 As seguintes ferramentas foram utilizadas na construção do projeto:
 
 - [React](https://reactjs.org)
+- [StyledComponents](https://styled-components.com)
 
 ---
 ### :triangular_ruler: **Status do Projeto**
