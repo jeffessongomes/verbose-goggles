@@ -1,5 +1,4 @@
 <h1 align="center">Desafio da RITS</h1>
-<img alt="RITS" src=".github/banner.png" />
 
 <p align="center">
   <img alt="Tamanho do Repositório" src="https://img.shields.io/github/repo-size/jeffessongomes/verbose-goggles?style=for-the-badge">
@@ -22,6 +21,16 @@
 ## :computer: Sobre
 
 O projeto é um desafio, onde deveria clonar um layout que foi feito no Adobe XD e foi proposto pela [RITS](https://rits.dev)
+
+
+
+---
+
+### :camera_flash: Demonstração
+
+<p align="center">
+  <img alt="RITS" src="./.github/assets/banner.png">
+</p>
 
 ---
 ### :hammer: **Tecnologias**
