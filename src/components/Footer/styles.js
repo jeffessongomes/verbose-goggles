@@ -1,6 +1,17 @@
 import styled from 'styled-components';
 
-export const Container = styled.footer`
+export const Mobile = styled.footer`
+  @media only screen and (max-width: 990px) {
+    div{
+      padding: 30px 10px 0 10px !important;
+    }
+    div + div{
+      padding-top: 130px !important;
+    }
+  }
+`;
+
+export const Container = styled.div`
   height: 284px;
   background: #F7F7F7;
   
