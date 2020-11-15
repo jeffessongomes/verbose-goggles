@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-  width: 1160px;
+  width: 100%;
 
   div{
     display: flex;
@@ -71,7 +71,6 @@ export const Container = styled.div`
       animation-iteration-count: 1;
       animation-timing-function: ease-in-out;
       
-
       @keyframes fadeIn{
         from{
           opacity: 0.25;
@@ -83,6 +82,7 @@ export const Container = styled.div`
       li{
         display: flex;
         margin-right: 30px;
+        margin-top: 10px;
 
         li + li{
           margin: 0;
@@ -222,4 +222,48 @@ export const Container = styled.div`
     }
   }
 
+`;
+
+export const Mobile = styled.div`
+  @media only screen and (max-width: 990px) {
+    > div{
+      margin-top: 350px;
+
+      div.ContainerTitleFlex{
+        flex-wrap: wrap;
+        padding: 0 20px;
+        justify-content: center;
+
+        h2{
+          margin: 0;
+        }
+      }
+
+      div.slideFunctions{
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+
+      div.buttonSelectAndButtonHover{
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+
+        flex-direction: column;
+
+        padding: 0 20px;
+        justify-content: center;
+
+        div{
+          margin: 0;
+
+          button{
+            margin: 0;
+            margin-bottom: 40px;
+          }
+        }
+      }
+    }
+
+  }
 `;

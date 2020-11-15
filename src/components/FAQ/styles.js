@@ -1,5 +1,24 @@
 import styled from 'styled-components';
 
+export const Mobile = styled.div`
+  @media only screen and (max-width: 990px) {
+    justify-content: center;
+    align-items: center;
+
+    div.titleContainer{
+      h2{
+        width: 100% !important;
+        margin: 0;
+        align-content: center;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+      }
+    }
+
+  }
+`;
+
 export const Container = styled.div`
   background: #2E2236;
 
@@ -9,6 +28,7 @@ export const Container = styled.div`
   justify-content: center;
   align-items: flex-start;
   padding-top: 100px;
+  flex-wrap: wrap;
 
   div.titleContainer{
 
