@@ -40,7 +40,7 @@ export const Container = styled.nav`
 export const Mobile = styled.div`
   @media only screen and (max-width: 990px) {
     nav {
-      background: #2E2236;
+      background: transparent;
 
       div.container{
         border: none;

@@ -1,5 +1,11 @@
 import styled from 'styled-components';
 
+export const Mobile = styled.div`
+  @media only screen and (max-width: 990px) {
+    margin-top: -200px;
+  }
+`;
+
 export const Container = styled.div`
   display: flex;
   justify-content: center;

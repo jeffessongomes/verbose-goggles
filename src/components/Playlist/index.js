@@ -7,7 +7,9 @@ import {RiArrowDownSLine, RiArrowUpSLine} from 'react-icons/ri';
 import { Container, Mobile } from './styles';
 
 import video from '../../assets/video/01.webm';
-import background from '../../assets/img/banner-2.jpg';
+import video2 from '../../assets/img/video-2.png';
+import video3 from '../../assets/img/video-3.png';
+import video1 from '../../assets/img/video-1.png';
 
 const Playlist = () => {
   const [isPlay, setIsPlay] = useState(false);
@@ -99,7 +101,7 @@ const Playlist = () => {
             <ul id="listVideos" onScroll={e => handleScrollList(e)}>
               <li>
                 <div className="active">
-                  <img src={background} alt="Imagem do video" />
+                  <img src={video1} alt="Imagem do video" />
                   <div>
                     <FaPlay size={20} color="#FFF" />
                   </div>
@@ -110,7 +112,7 @@ const Playlist = () => {
               </li>
               <li>
                 <div>
-                  <img src={background} alt="Imagem do video" />
+                  <img src={video2} alt="Imagem do video" />
                   <div>
                     <FaPlay size={20} color="#FFF" />
                   </div>
@@ -118,7 +120,7 @@ const Playlist = () => {
               </li>
               <li>
                 <div>
-                  <img src={background} alt="Imagem do video" />
+                  <img src={video3} alt="Imagem do video" />
                   <div>
                     <FaPlay size={20} color="#FFF" />
                   </div>
@@ -126,7 +128,7 @@ const Playlist = () => {
               </li>
               <li>
                 <div>
-                  <img src={background} alt="Imagem do video" />
+                  <img src={video2} alt="Imagem do video" />
                   <div>
                     <FaPlay size={20} color="#FFF" />
                   </div>
