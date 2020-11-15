@@ -19,6 +19,7 @@ export const Container = styled.div`
     display: flex;
     justify-content: center;
     margin-top: 80.32px;
+    margin-bottom: 100px;
   }
 
 `;
