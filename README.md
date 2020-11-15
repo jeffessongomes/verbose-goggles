@@ -26,7 +26,7 @@ O projeto é um desafio, onde deveria clonar um layout que foi feito no Adobe XD
 
 ---
 
-### :camera_flash: Demonstração
+### :camera_flash: Demonstração [LINK](https://rits-challenge.herokuapp.com)
 
 <p align="center">
   <img alt="RITS" src="./.github/assets/banner.png">
