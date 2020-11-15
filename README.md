@@ -7,7 +7,7 @@
   <a href="https://github.com/jeffessongomes">
     <img alt="Feito pelo Jeffesson Gomes" src="https://img.shields.io/badge/feito%20por-Jeffesson Gomes-%237519C1?style=for-the-badge">
   </a>
-  <img alt="Licença do Projeto" src="https://img.shields.io/github/license/jeffessongomes/verbose-goggles/?style=for-the-badge"/>
+  <img alt="Licença do Projeto" src="https://img.shields.io/github/license/jeffessongomes/verbose-goggles?style=for-the-badge"/>
 <p>
 
 <p align="center">
