@@ -2,8 +2,8 @@
 <!--<img alt="RITS" src="./github/banner.png" /> -->
 
 <p align="center">
-  <img alt="Tamanho do Repositório" src="https://img.shields.io/github/repo-size/jeffessongomes/verbose-goggles/?style=for-the-badge">
-  <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/jeffessongomes/verbose-goggles/?style=for-the-badge">
+  <img alt="Tamanho do Repositório" src="https://img.shields.io/github/repo-size/jeffessongomes/verbose-goggles?style=for-the-badge">
+  <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/jeffessongomes/verbose-goggles?style=for-the-badge">
   <a href="https://github.com/jeffessongomes">
     <img alt="Feito pelo Jeffesson Gomes" src="https://img.shields.io/badge/feito%20por-Jeffesson Gomes-%237519C1?style=for-the-badge">
   </a>
